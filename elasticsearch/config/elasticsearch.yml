@@ -4,10 +4,11 @@
 #
 cluster.name: "docker-cluster"
 network.host: 0.0.0.0
+logger.org.elasticsearch.discovery: debug
 
 ## X-Pack settings
 ## see https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-xpack.html
 #
-xpack.license.self_generated.type: trial
+xpack.license.self_generated.type: basic
 xpack.security.enabled: true
 xpack.monitoring.collection.enabled: true
